@@ -16,7 +16,6 @@ EXPOSE 5000
 
 # Set an environment variable
 ENV NAME World
-
 # Run the application when the container starts
 CMD ["python", "app/app.py"]
 CMD python app.py
