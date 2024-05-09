@@ -43,4 +43,6 @@ kubectl apply -f coworking.yaml
 ```
 
 ### Step 6 After run successfully Run this command to shutdown all resources
+```
 eksctl delete cluster --name phuhv10-cluster --region us-east-1
+```
